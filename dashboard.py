@@ -32,5 +32,5 @@ category_counts.columns = ["Category", "Count"]
 
 st.bar_chart(category_counts.set_index("Category"))
 
-st.markdown("### Data Preview")
+st.markdown("Data Preview")
 st.write(df.head())
